@@ -1,0 +1,25 @@
+Controller Code List:
+    **Note: The y-axis of the sticks is inverted — meaning the positive y-axis is treated as negative and the negative y-axis is treated as positive. This can be corrected by multiplying the gamepad variable by -1.**
+
+    first game control = gamepad1
+    second game control = gamepad2
+
+    left stick y-axis = gamepad{**number of the gamepad**}.left_stick_y
+    left stick x-axis = gamepad{**number of the gamepad**}.left_stick_x
+    right stick y-axis = gamepad{**number of the gamepad**}.right_stick_y
+    right stick x-axis = gamepad{**number of the gamepad**}.right_stick_x
+
+    left trigger = gamepad{**number of the gamepad**}.left_trigger
+    right trigger = gamepad{**number of the gamepad**}.right_trigger
+    left bumper = gamepad{**number of the gamepad**}.left_bumper
+    right bumper = gamepad{**number of the gamepad**}.right_bumper
+
+    a button = gamepad{**number of the gamepad**}.a
+    b button = gamepad{**number of the gamepad**}.b
+    x button = gamepad{**number of the gamepad**}.x
+    y button = gamepad{**number of the gamepad**}.y
+
+    dpad up = gamepad{**number of the gamepad**}.dpad_up
+    dpad down = gamepad{**number of the gamepad**}.dpad_down
+    dpad left = gamepad{**number of the gamepad**}.dpad_left
+    dpad right = gamepad{**number of the gamepad**}.dpad_right
