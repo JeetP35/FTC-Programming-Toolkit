@@ -1,5 +1,7 @@
 Controller Code List:
-    **Note: The y-axis of the sticks is inverted — meaning the positive y-axis is treated as negative and the negative y-axis is treated as positive. This can be corrected by multiplying the gamepad variable by -1.**
+    **Note: The y-axis of the sticks is inverted — meaning
+    the positive y-axis is treated as negative and the negative y-axis is treated as positive.
+    This can be corrected by multiplying the gamepad variable by -1.**
 
     first game control = gamepad1
     second game control = gamepad2
