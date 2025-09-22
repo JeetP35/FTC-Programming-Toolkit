@@ -15,3 +15,5 @@ Javadoc: [https://javadoc.io/doc/org.firstinspires.ftc](url)
 PedroPathing (navigation): [https://pedropathing.com/](url)
 
 Roadrunner (navigation): [https://learnroadrunner.com/introduction.html](url)
+
+Drivetrain coding tutorial (same code as SHARKANS Drivetrain.java) [https://www.youtube.com/watch?v=gnSW2QpkGXQ](url)
