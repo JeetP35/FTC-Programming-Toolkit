@@ -1,4 +1,4 @@
-Welcome to FTC programming! 
+Welcome to FTC programming!
 The best way to learn how to code is to simply code, so try stuff in whatever way makes you learn.
 
 
