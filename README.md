@@ -17,3 +17,5 @@ PedroPathing (navigation): https://pedropathing.com/
 Roadrunner (navigation): https://learnroadrunner.com/introduction.html
 
 Drivetrain coding tutorial (same code as SHARKANS Drivetrain.java) https://www.youtube.com/watch?v=gnSW2QpkGXQ
+
+FTC Programming Tutorials : https://www.youtube.com/playlist?list=PLnyefHqkc2K-gQD4hO5x3IcANuDuNMKDP
