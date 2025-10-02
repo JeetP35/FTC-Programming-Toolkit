@@ -1,4 +1,4 @@
-<img width="1119" height="595" alt="image" src="https://github.com/user-attachments/assets/46251b00-1c19-49b9-81a8-48250a2a2569" />Welcome to FTC programming!
+Welcome to FTC programming!
 The best way to learn how to code is to simply code, so try stuff in whatever way makes you learn.
 
 
