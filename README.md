@@ -22,4 +22,4 @@ FTC Programming Tutorials : https://www.youtube.com/playlist?list=PLnyefHqkc2K-g
 
 Workshop 1 Slides: https://docs.google.com/presentation/d/1nYb0J8q0E8MSxiWj8Nmieu0Q553lkvAjyb8lJA0Lvs0/edit?usp=sharing
 
-Workshop 2 Slides: https://stemyyc-my.sharepoint.com/:p:/r/personal/jeetp884_stemia_ca/Documents/FTC%20Programming%20Full%20Workshop.pptx?d=w29d722b7271142babcde366acebe459c&csf=1&web=1&e=De0YiP&nav=eyJzSWQiOjI1NiwiY0lkIjoyOTMxMjk3MTg2fQ
+Workshop 2 Slides: [https://stemyyc-my.sharepoint.com/:p:/r/personal/jeetp884_stemia_ca/Documents/FTC%20Programming%20Full%20Workshop.pptx?d=w29d722b7271142babcde366acebe459c&csf=1&web=1&e=De0YiP&nav=eyJzSWQiOjI1NiwiY0lkIjoyOTMxMjk3MTg2fQ](https://stemyyc-my.sharepoint.com/:p:/g/personal/jeetp884_stemia_ca/Ebci1ykRJ7pCvN42as6-RZwBAqkCGrbP0k5qisMJwJgEeg?e=yNClSs)
