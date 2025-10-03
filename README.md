@@ -4,7 +4,7 @@ The best way to learn how to code is to simply code, so try stuff in whatever wa
 
 Here are some extra resources that might help along the way:
 --------------------------------------------------------------------
-27272 SHARKANS Repository: https://github.com/JPON24/FTC27272-SHARKANS
+Source Code Folder has Code 
 
 Great Control System Documentation: https://www.ctrlaltftc.com/the-pid-controller
 
