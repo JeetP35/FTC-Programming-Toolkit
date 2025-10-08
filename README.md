@@ -4,7 +4,7 @@ The best way to learn how to code is to simply code, so try stuff in whatever wa
 
 Here are some extra resources that might help along the way:
 --------------------------------------------------------------------
-Source Code Folder has Sporkans and Sharkans code from last year.
+Source Code Folder has Sporkans ~ 27953 and Sharkans ~ 27272 code from last year.
 
 LearnJavaForFTC.pdf is a book for FTC programming by Alan G. Smith, this book has everything that you'll need for the entire year.
 
