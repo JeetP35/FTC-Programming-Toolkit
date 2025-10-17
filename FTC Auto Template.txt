@@ -1,0 +1,67 @@
+/* For the ones who haven't ever programmed in Java, 
+   just know that there are extra brackets in this template 
+   but it is just there to make the code look cleaner 
+   however, in your actually code do remove the extra brackets 
+   otherwise there will be millioins of errors in your code */
+
+package org.firstinspires.ftc.teamcode.FTC;
+
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.util.ElapsedTime;
+import com.qualcomm.hardware.sparkfun.SparkFunOTOS;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.robot.Robot;
+import com.qualcomm.robotcore.util.Range;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
+import com.qualcomm.robotcore.hardware.Servo;
+import com.qualcomm.robotcore.hardware.CRServo;
+
+@com.qualcomm.robotcore.eventloop.opmode.Autonomous (name = "/* Displayed name of the file on the DriverHub */")
+public class /*name of the file*/ extends LinearOpMode {
+    
+    //Declaration
+    private DcMotor /* name of the motor */;
+    private Servo /*name of the servo*/;
+    private CRServo /*name of the continuous rotation servo*/;
+
+    @Override
+    public void runOpMode() throws InterruptedException {
+        //Initializing the motors and servos
+        {/*name that was declared for the motor*/} = hardwareMap.get(DcMotor.class, "/* **(The configured Motor name)** */");
+        {/*name that was declared for servo*/} = hardwareMap.get(Servo.class, "/* **(The configured Servo name)** */");
+        {/*name that was declared for continuous rotation servo*/} = hardwareMap.get(CRServo.class, "/* **(The configured Continuous Rotation Servo name)** */");
+
+
+        //Motor Encoder (Usually used for the arm or the extension to have the initial position as 0 and make it run to target position)
+        {/*Declared Name of the Motor*/}.setTargetPosition(0);
+        {/*Declared Name of the Motor*/}.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        {/*Declared Name of the Motor*/}.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        {/*Declared Name of the Motor*/}.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+
+        waitForStart();
+        
+        //Call the functions here
+        movingEverything([/* power value(should be between -1 and 1) */], [/* Desired position of the Motor */], [/* Desired position of the Servo */], [/* sleep time value in milliseconds */])
+
+        //showcase
+        telemetry.addData("/*{Motor name to display on the driver hub}*/",  [/*Declared name of the Motor*/]  );
+        telemetry.addData("/*{Servo name to display on the driver hub}*/",  [/*Declared name of the Servo*/]  );
+        telemetry.addData("/*{Continuous Rotation Servo name to display on the driver hub}*/",  [/*Declared name of the Continuous Rotation Servo*/]  );
+        telemetry.update(); //Display updated telemetry data\
+    }
+
+    public void movingEverything(double power, double motorPosition, double servoPostion, int time) {
+        {/*name of the motor*/}.setPower(power);
+        {/*name of the motor*/}.setTargetPosition(motorPosition);
+
+        sleep(time);
+
+        {/*name of the servo*/}.setPosition(servoPostion);
+
+        sleep(time);
+
+        {/*name of the continuous rotation servo*/}.setPower(power);
+    }
+}
