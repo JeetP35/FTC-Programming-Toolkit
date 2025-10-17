@@ -9,7 +9,7 @@ Source Code Folder has Sporkans ~ 27953 and Sharkans ~ 27272 code from last year
 LearnJavaForFTC.pdf is a book for FTC programming by Alan G. Smith, this book has everything that you'll need for the entire year.
 
 Brogan M. Pratt Tutorials : https://www.youtube.com/@BroganMPratt/playlists
-These are some of the best tutorials you are going to find for FTC.
+These are some of the best tutorials you are going to find for FTC programming and building both.
 
 
 GitHub Desktop Tutorials : https://www.youtube.com/playlist?list=PLRHdgFNRLyaNeaKKlv81SodtPzXH20z6f
