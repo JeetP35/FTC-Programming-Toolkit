@@ -18,7 +18,7 @@
 
 
    //       [ {/*Declared Name of the Motor*/}.getCurrentPostion() + /*increment value*/] 
-   //       remove these [] and replace the comment with valid input 
+   //       remove these [] and replace the comment with valid input (increment vale)
    //       and also remove these {} and replace comment with the deeclared name of the motor.
 
 
