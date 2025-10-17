@@ -5,7 +5,8 @@
    otherwise there will be millioins of errors in your code */
    
    //e.g. : 
-   //       {/*name that was declared for the motor*/} remove these {} and replace the comment with declared name of the motor.
+   //       {/*name that was declared for the motor*/} remove these {} 
+   //       and replace the comment with declared name of the motor.
 
 
    //       [/*type of input(boolean, double, int, etc)*/] remove these {} and replace the comment with valid data type.
