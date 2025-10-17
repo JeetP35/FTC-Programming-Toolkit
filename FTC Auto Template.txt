@@ -4,6 +4,15 @@
    however, in your actually code do remove the extra brackets 
    otherwise there will be millioins of errors in your code */
 
+   //e.g. : 
+   //       {/*name that was declared for the motor*/} remove these {} 
+   //       and replace the comment with declared name of the motor.
+
+   //       [/*target position of the motor*/] remove these {} 
+   //       and replace the comment with valid input.
+
+
+
 package org.firstinspires.ftc.teamcode.FTC;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -43,7 +52,7 @@ public class /*name of the file*/ extends LinearOpMode {
         waitForStart();
         
         //Call the functions here
-        movingEverything([/* power value(should be between -1 and 1) */], [/* Desired position of the Motor */], [/* Desired position of the Servo */], [/* sleep time value in milliseconds */])
+        movingEverything([/* power value(should be between -1 and 1) */], [/* Desired position of the Motor */], [/* Desired position of the Servo(should be between -1 and 1) */], [/* sleep time value in milliseconds */])
 
         //showcase
         telemetry.addData("/*{Motor name to display on the driver hub}*/",  [/*Declared name of the Motor*/]  );
@@ -53,15 +62,15 @@ public class /*name of the file*/ extends LinearOpMode {
     }
 
     public void movingEverything(double power, double motorPosition, double servoPostion, int time) {
-        {/*name of the motor*/}.setPower(power);
-        {/*name of the motor*/}.setTargetPosition(motorPosition);
+        {/*name of the motor*/}.setPower(power); //sets the desired power to the motor
+        {/*name of the motor*/}.setTargetPosition(motorPosition);//runs to the desired motor position
 
         sleep(time);
 
-        {/*name of the servo*/}.setPosition(servoPostion);
+        {/*name of the servo*/}.setPosition(servoPostion);//runs to the desired servo position
 
         sleep(time);
 
-        {/*name of the continuous rotation servo*/}.setPower(power);
+        {/*name of the continuous rotation servo*/}.setPower(power);//sets the desired power to the continuous rotation servo
     }
 }
