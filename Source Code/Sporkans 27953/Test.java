@@ -19,8 +19,6 @@ public class Test extends LinearOpMode {
     private DcMotor ExtendMotor;
     private Servo clawOCMotor;
     private Servo clawUDMotor;
-    // private SparkFunOTOS odoSensor;
-    // private ElapsedTime timer;
 
     @Override
     public void runOpMode() throws InterruptedException {
