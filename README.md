@@ -8,6 +8,12 @@ Source Code Folder has Sporkans ~ 27953 and Sharkans ~ 27272 code from last year
 
 LearnJavaForFTC.pdf is a book for FTC programming by Alan G. Smith, this book has everything that you'll need for the entire year.
 
+Brogan M. Pratt Tutorials : https://www.youtube.com/@BroganMPratt/playlists
+These are some of the best tutorials you are going to find for FTC.
+
+
+GitHub Desktop Tutorials : https://www.youtube.com/playlist?list=PLRHdgFNRLyaNeaKKlv81SodtPzXH20z6f
+
 Great Control System Documentation: https://www.ctrlaltftc.com/the-pid-controller
 
 REV Coding Documentation: https://docs.revrobotics.com/ftc-kickoff-concepts/decode-2025-26/programming-teleop/programming-onbot-java-overview
@@ -20,7 +26,9 @@ Roadrunner (navigation): https://learnroadrunner.com/introduction.html
 
 Drivetrain coding tutorial (same code as SHARKANS Drivetrain.java) https://www.youtube.com/watch?v=gnSW2QpkGXQ
 
-FTC Programming Tutorials : https://www.youtube.com/playlist?list=PLnyefHqkc2K-gQD4hO5x3IcANuDuNMKDP
+FTC Programming Tutorials Playlist : https://www.youtube.com/playlist?list=PLnyefHqkc2K-gQD4hO5x3IcANuDuNMKDP
+
+FTC Programming Tutorials Playlist 2 : https://www.youtube.com/playlist?list=PLRHdgFNRLyaPiZ5rvINwMmGMHEIL9usla
 
 Workshop 1 Slides: https://docs.google.com/presentation/d/1nYb0J8q0E8MSxiWj8Nmieu0Q553lkvAjyb8lJA0Lvs0/edit?usp=sharing
 
