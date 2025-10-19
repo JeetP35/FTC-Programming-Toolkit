@@ -70,6 +70,7 @@ public class /* name of the file */ extends LinearOpMode {
 
             // Conditional statement to controll the movement of the robot.
 
+<<<<<<< Updated upstream
             // **Motor Control Example:
             if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
                 {/* name of the motor */}.setPower({/* power of the motor */});
@@ -77,43 +78,66 @@ public class /* name of the file */ extends LinearOpMode {
             } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different)*/) {
                 {/* name of the motor */}.setPower({/*power of the motor*/});
                 {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ - /* decrement value */] );
+=======
+            // **Motor Control Drive/Intake Example:
+            if ( /* gamepad control is (pressed/moved) or a condition with the input of the gamepad */ ) {
+                {/* name of the motor */}.setPower( {/* power of the motor */} );
+            } else if ( /* gamepad control is (pressed/moved) in the opposite direction (input is different) */ ) {
+                {/* name of the motor */}.setPower( {/*power of the motor*/} );
+>>>>>>> Stashed changes
             }else {
-                {/*name of the motor*/}.setPower({/*power of the motor*/} or {/*stop power*/});
-                {/*name of the motor*/}.setTargetPosition( [/*set target position of the motor as the current position*/] or [/*set target position as the custom position*/] );
+                {/* name of the motor */}.setPower( {/*stop power */} );
             }
-            /* Note that Motor does requires input for power and although input for position isn't necessary,
-               it is the best option for precise and accurate movement because 
-               positive of negative power will only continuously move the motor in one direction */
 
-
-
-            //**Servo Control Example:
-            if (/*gamepad control is (pressed/moved)*/) {
-                {/*name of the servo*/}.setPosition( [/*position of the servo*/] );
+            // **Motor Control Arm/Extension Example:
+            if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
+                {/* name of the motor */}.setPower( {/* power of the motor */} );
+                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ + /* increment value */] );
             } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different)*/) {
-                {/*name of the servo*/}.setPosition( [/*position of the servo*/] );
+                {/* name of the motor */}.setPower( {/*power of the motor*/} );
+                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ - /* decrement value */] );
+            }else {
+                {/* name of the motor */}.setPower( {/* power of the motor */} or {/*stop power */} );
+                {/* name of the motor */}.setTargetPosition( [/* set target position of the motor as the current position */] or [/* set target position as the custom position */] );
             }
-            /* Note that Servo only requires input for position and not power,
-               it won't affect anything if you do have an input for power. */
+
+            /* Note : 
+                        Motor does requires input for power and although input for position isn't necessary,
+                        target position is the best for precise and accurate movement like for arm or lift extensions
+                        because giving only power will only continuously move the motor in one direction, 
+                        which mostly helpful in drive and intake. */
 
 
 
-            //**Continuous Rotation Servo Control Example:
-            if (/*gamepad control is (pressed/moved)*/) {
-                {/*name of the continuous rotation servo*/}.setPower( {/*power of the Continuous Rotation Servo*/} );
-            } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different)*/) {
-                {/*name of the continuous rotation servo*/}.setPower( {/*power of the Continuous Rotation Servo*/} );
+            // **Servo Control Example:
+            if (/* gamepad control is (pressed/moved) */) {
+                {/* name of the servo */}.setPosition( [/* position of the servo */] );
+            } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different) */) {
+                {/* name of the servo */}.setPosition( [/* position of the servo */] );
             }
-            /* Note that Continuous Rotation Servo only requires input for power and not position,
-               it shouldn't affect anything if you do have an input for position */
+            /* Note : 
+                        Normal Servo only requires input for position only,
+                        it won't do anything if you do have an input for power. */
 
 
 
-            //Telemetry for debugging
-            telemetry.addData("/*{Motor name to display on the driver hub}*/",  [/*Declared name of the Motor*/]  );
-            telemetry.addData("/*{Servo name to display on the driver hub}*/",  [/*Declared name of the Servo*/]  );
-            telemetry.addData("/*{Continuous Rotation Servo name to display on the driver hub}*/",  [/*Declared name of the Continuous Rotation Servo*/]  );
-            telemetry.update(); //Display updated telemetry data
+            // **Continuous Rotation Servo Control Example:
+            if (/* gamepad control is (pressed/moved) */) {
+                {/*name of the continuous rotation servo */}.setPower( {/* power of the Continuous Rotation Servo */} );
+            } else if (/* gamepad control is (pressed/moved) in the opposite direction (input is different) */) {
+                {/* name of the continuous rotation servo */}.setPower( {/* power of the Continuous Rotation Servo */} );
+            }
+            /* Note : 
+                        Continuous Rotation Servo only requires input for power only,
+                        it won't do anything if you do have an input for position. */
+
+
+
+            // Telemetry for debugging
+            telemetry.addData("/* {Motor name to display on the driver hub} */",  [/* Declared name of the Motor */]  );
+            telemetry.addData("/* {Servo name to display on the driver hub} */",  [/* Declared name of the Servo */]  );
+            telemetry.addData("/* {Continuous Rotation Servo name to display on the driver hub} */",  [/* Declared name of the Continuous Rotation Servo */]  );
+            telemetry.update(); // Display updated telemetry data
         }
     }
 }
