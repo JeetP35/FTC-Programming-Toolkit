@@ -71,6 +71,7 @@ public class /* name of the file */ extends LinearOpMode {
             // Conditional statement to controll the movement of the robot.
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // **Motor Control Example:
             if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
                 {/* name of the motor */}.setPower({/* power of the motor */});
@@ -79,11 +80,16 @@ public class /* name of the file */ extends LinearOpMode {
                 {/* name of the motor */}.setPower({/*power of the motor*/});
                 {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ - /* decrement value */] );
 =======
+=======
+>>>>>>> Stashed changes
             // **Motor Control Drive/Intake Example:
             if ( /* gamepad control is (pressed/moved) or a condition with the input of the gamepad */ ) {
                 {/* name of the motor */}.setPower( {/* power of the motor */} );
             } else if ( /* gamepad control is (pressed/moved) in the opposite direction (input is different) */ ) {
                 {/* name of the motor */}.setPower( {/*power of the motor*/} );
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             }else {
                 {/* name of the motor */}.setPower( {/*stop power */} );
