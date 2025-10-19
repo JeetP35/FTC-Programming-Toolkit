@@ -52,11 +52,11 @@ public class /* name of the file */ extends LinearOpMode {
         waitForStart();
         
         // Calling the functions here
-        movingEverything([/* power value(should be between -1 and 1) */], [/* Desired position of the Motor */], [/* Desired position of the Servo(should be between -1 and 1) */], [/* sleep time value in milliseconds */])
+        movingEverything( [/* power value(should be between -1 and 1) */] , [/* Desired position of the Motor */] , [/* Desired position of the Servo(should be between -1 and 1) */] , [/* sleep time value in milliseconds */] )
 
         // Showcase
         telemetry.addData("/* {Motor name to display on the driver hub} */",  [/* Declared name of the Motor */]  );
-        telemetry.addData("/*{Servo name to display on the driver hub}*/",  [/* Declared name of the Servo */]  );
+        telemetry.addData("/*{Servo name to display on the driver hub} */",  [/* Declared name of the Servo */]  );
         telemetry.addData("/* {Continuous Rotation Servo name to display on the driver hub} */",  [/* Declared name of the Continuous Rotation Servo */]  );
         telemetry.update(); // Display updated telemetry data
     }
