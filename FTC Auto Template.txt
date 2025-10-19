@@ -12,7 +12,7 @@
    //       and replace the comment with valid input.
 
 
-
+// Packages and imports
 package org.firstinspires.ftc.teamcode.FTC;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -30,7 +30,7 @@ import com.qualcomm.robotcore.hardware.CRServo;
 @com.qualcomm.robotcore.eventloop.opmode.Autonomous (name = "/* Displayed name of the file on the DriverHub */")
 public class /* name of the file */ extends LinearOpMode {
     
-    // Declaration
+    // Declaring the motors and servos
     private DcMotor /* name of the motor */;
     private Servo /* name of the servo */;
     private CRServo /* name of the continuous rotation servo */;
@@ -51,7 +51,7 @@ public class /* name of the file */ extends LinearOpMode {
 
         waitForStart();
         
-        // Call the functions here
+        // Calling the functions here
         movingEverything([/* power value(should be between -1 and 1) */], [/* Desired position of the Motor */], [/* Desired position of the Servo(should be between -1 and 1) */], [/* sleep time value in milliseconds */])
 
         // Showcase
