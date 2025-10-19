@@ -80,6 +80,7 @@ public class /* name of the file */ extends LinearOpMode {
                 {/* name of the motor */}.setPower( {/* stop power */} );
             }
 
+
             // **Motor Control Arm/Extension Example:
             if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
                 {/* name of the motor */}.setPower( {/* power of the motor */} );
