@@ -4,28 +4,28 @@
    however, in your actually code do remove the extra brackets 
    otherwise there will be millioins of errors in your code */
    
-   //e.g. : 
-   //       {/*name that was declared for the motor*/} remove these {} 
+   // e.g. : 
+   //       {/* name that was declared for the motor */} remove these {} 
    //       and replace the comment with declared name of the motor.
 
 
-   //       [/*type of input(boolean, double, int, etc)*/] remove these {} and replace the comment with valid data type.
+   //       [/* type of input(boolean, double, int, etc) */] remove these {} and replace the comment with valid data type.
 
 
-   //       [/*gamepad control for the input*/] remove these {} and replace the comment with valid variable.
+   //       [/* gamepad control for the input */] remove these {} and replace the comment with valid variable.
 
 
-   //       [/*target position of the motor*/] remove these {} and replace the comment with valid input.
+   //       [/* target position of the motor */] remove these {} and replace the comment with valid input.
 
 
-   //       [ {/*Declared Name of the Motor*/}.getCurrentPostion() + /*increment value*/] 
+   //       [ {/* Declared Name of the Motor */}.getCurrentPostion() + /* increment value */] 
    //       remove these [] and replace the comment with valid input (increment vale)
    //       and also remove these {} and replace comment with the deeclared name of the motor.
 
 
    
 
-//packages and imports
+// Packages and imports
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -39,44 +39,44 @@ import com.qualcomm.robotcore.hardware.CRServo;
 
 
 @TeleOp
-public class /*name of the file*/ extends LinearOpMode {
-    //Declaring the motors and servos
-    private DcMotor /*name of the motor*/;
-    private Servo /*name of the servo*/;
-    private CRServo /*name of the continuous rotation servo*/;
+public class /* name of the file */ extends LinearOpMode {
+    // Declaring the motors and servos
+    private DcMotor /* name of the motor */;
+    private Servo /* name of the servo */;
+    private CRServo /* name of the continuous rotation servo */;
 
     @Override
     public void runOpMode(){
-        //Initializing the motors and servos
-        {/*name that was declared for the motor*/} = hardwareMap.get(DcMotor.class, "/* **(The configured Motor name)** */");
-        {/*name that was declared for servo*/} = hardwareMap.get(Servo.class, "/* **(The configured Servo name)** */");
-        {/*name that was declared for continuous rotation servo*/} = hardwareMap.get(CRServo.class, "/* **(The configured Continuous Rotation Servo name)** */");
+        // Initializing the motors and servos
+        {/* name that was declared for the motor */} = hardwareMap.get(DcMotor.class, "/* **(The configured Motor name)** */");
+        {/* name that was declared for servo */} = hardwareMap.get(Servo.class, "/* **(The configured Servo name)** */");
+        {/* name that was declared for continuous rotation servo */} = hardwareMap.get(CRServo.class, "/* **(The configured Continuous Rotation Servo name)** */");
 
-        //Motor Encoder (Usually used for the arm or the extension to have the initial position as 0 and make it run to target position)
-        {/*Declared Name of the Motor*/}.setTargetPosition(0);
-        {/*Declared Name of the Motor*/}.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        {/*Declared Name of the Motor*/}.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        {/*Declared Name of the Motor*/}.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        // Motor Encoder (Usually used for the arm or the extension to have the initial position as 0 and make it run to target position)
+        {/* Declared Name of the Motor */}.setTargetPosition(0);
+        {/* Declared Name of the Motor */}.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        {/* Declared Name of the Motor */}.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        {/* Declared Name of the Motor */}.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
-        waitForStart(); //Wait for the start button to be pressed on the Driver Hub
+        waitForStart(); // Wait for the start button to be pressed on the Driver Hub
         while (opModeIsActive()){ // When start button is pressed opModISActive becomes true and the code inside the while loop runs
 
-            //**Variables for input from the controller:
-            [/*type of input(boolean, double, int, etc)*/] {/*name of the motor*/}  = [/*gamepad control for the input*/];
-            [/*type of input(boolean, double, int, etc)*/] {/*name of the servo*/}  = [/*gamepad control for the input*/];
-            [/*type of input(boolean, double, int, etc)*/] {/*name of the continuous rotation servo*/}  = [/*gamepad control for the input*/];
+            // **Variables for input from the controller:
+            [/* type of input(boolean, double, int, etc) */] {/* name of the motor */}  = [/* gamepad control for the input */];
+            [/* type of input(boolean, double, int, etc) */] {/* name of the servo */}  = [/* gamepad control for the input */];
+            [/* type of input(boolean, double, int, etc) */] {/* name of the continuous rotation servo */}  = [/* gamepad control for the input */];
 
 
 
-            //Conditional statement to controll the movement of the robot.
+            // Conditional statement to controll the movement of the robot.
 
-            //**Motor Control Example:
-            if (/*gamepad control is (pressed/moved) or a condition with the input of the gamepad*/) {
-                {/*name of the motor*/}.setPower({/*power of the motor*/});
-                {/*name of the motor*/}.setTargetPosition( [/*target position of the motor*/] or [/*target position of the motor*/ + /*increment value*/] );
+            // **Motor Control Example:
+            if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
+                {/* name of the motor */}.setPower({/* power of the motor */});
+                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ + /* increment value */] );
             } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different)*/) {
-                {/*name of the motor*/}.setPower({/*power of the motor*/});
-                {/*name of the motor*/}.setTargetPosition( [/*target position of the motor*/] or [/*target position of the motor*/ - /*decrement value*/] );
+                {/* name of the motor */}.setPower({/*power of the motor*/});
+                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ - /* decrement value */] );
             }else {
                 {/*name of the motor*/}.setPower({/*power of the motor*/} or {/*stop power*/});
                 {/*name of the motor*/}.setTargetPosition( [/*set target position of the motor as the current position*/] or [/*set target position as the custom position*/] );
