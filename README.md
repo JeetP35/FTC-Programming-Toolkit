@@ -1,18 +1,20 @@
 Welcome to FTC programming!
-The best way to learn how to code is to simply code, so try stuff in whatever way makes you learn.
+The best way to learn how to code is to simply code, so try things in whatever way helps you learn.
 
+**Here are some extra resources that might help along the way:**
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Here are some extra resources that might help along the way:
---------------------------------------------------------------------
-Source Code Folder has Sporkans ~ 27953 and Sharkans ~ 27272 code from last year.
+The Source Code Folder has Sporkans ~27953 and Sharkans ~27272 code from last year.
 
-LearnJavaForFTC.pdf is a book for FTC programming by Alan G. Smith, this book has everything that you'll need for the entire year.
+Auto and TeleOp Programming Templates are in this repo too, which basically showcase the format and basics of FTC Java Programming by moving a motor, a servo, and a continuous rotation servo.
 
-Brogan M. Pratt Tutorials : https://www.youtube.com/@BroganMPratt/playlists
-These are some of the best tutorials you are going to find for FTC programming and building both.
+LearnJavaForFTC.pdf is a book for FTC programming by Alan G. Smith. This book has everything you'll need for the entire year.
 
+Brogan M. Pratt Tutorials: https://www.youtube.com/@BroganMPratt/playlists
 
-GitHub Desktop Tutorials : https://www.youtube.com/playlist?list=PLRHdgFNRLyaNeaKKlv81SodtPzXH20z6f
+These are some of the best tutorials you will find for FTC programming and building both.
+
+GitHub Desktop Tutorials: https://www.youtube.com/playlist?list=PLRHdgFNRLyaNeaKKlv81SodtPzXH20z6f
 
 Great Control System Documentation: https://www.ctrlaltftc.com/the-pid-controller
 
@@ -24,12 +26,12 @@ PedroPathing (navigation): https://pedropathing.com/
 
 Roadrunner (navigation): https://learnroadrunner.com/introduction.html
 
-Drivetrain coding tutorial (same code as SHARKANS Drivetrain.java) https://www.youtube.com/watch?v=gnSW2QpkGXQ
+Drivetrain coding tutorial (same code as SHARKANS Drivetrain.java): https://www.youtube.com/watch?v=gnSW2QpkGXQ
 
-FTC Programming Tutorials Playlist : https://www.youtube.com/playlist?list=PLnyefHqkc2K-gQD4hO5x3IcANuDuNMKDP
+FTC Programming Tutorials Playlist: https://www.youtube.com/playlist?list=PLnyefHqkc2K-gQD4hO5x3IcANuDuNMKDP
 
-FTC Programming Tutorials Playlist 2 : https://www.youtube.com/playlist?list=PLRHdgFNRLyaPiZ5rvINwMmGMHEIL9usla
+FTC Programming Tutorials Playlist 2: https://www.youtube.com/playlist?list=PLRHdgFNRLyaPiZ5rvINwMmGMHEIL9usla
 
 Workshop 1 Slides: https://docs.google.com/presentation/d/1nYb0J8q0E8MSxiWj8Nmieu0Q553lkvAjyb8lJA0Lvs0/edit?usp=sharing
 
-Workshop 2 Slides: [https://stemyyc-my.sharepoint.com/:p:/r/personal/jeetp884_stemia_ca/Documents/FTC%20Programming%20Full%20Workshop.pptx?d=w29d722b7271142babcde366acebe459c&csf=1&web=1&e=De0YiP&nav=eyJzSWQiOjI1NiwiY0lkIjoyOTMxMjk3MTg2fQ](https://stemyyc-my.sharepoint.com/:p:/g/personal/jeetp884_stemia_ca/Ebci1ykRJ7pCvN42as6-RZwBAqkCGrbP0k5qisMJwJgEeg?e=yNClSs)
+Workshop 2 Slides: https://stemyyc-my.sharepoint.com/:p:/g/personal/jeetp884_stemia_ca/Ebci1ykRJ7pCvN42as6-RZwBAqkCGrbP0k5qisMJwJgEeg?e=yNClSs
