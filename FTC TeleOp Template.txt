@@ -70,29 +70,14 @@ public class /* name of the file */ extends LinearOpMode {
 
             // Conditional statement to controll the movement of the robot.
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            // **Motor Control Example:
-            if (/* gamepad control is (pressed/moved) or a condition with the input of the gamepad */) {
-                {/* name of the motor */}.setPower({/* power of the motor */});
-                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ + /* increment value */] );
-            } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different)*/) {
-                {/* name of the motor */}.setPower({/*power of the motor*/});
-                {/* name of the motor */}.setTargetPosition( [/* target position of the motor */] or [/* current position of the motor */ - /* decrement value */] );
-=======
-=======
->>>>>>> Stashed changes
             // **Motor Control Drive/Intake Example:
             if ( /* gamepad control is (pressed/moved) or a condition with the input of the gamepad */ ) {
                 {/* name of the motor */}.setPower( {/* power of the motor */} );
             } else if ( /* gamepad control is (pressed/moved) in the opposite direction (input is different) */ ) {
-                {/* name of the motor */}.setPower( {/*power of the motor*/} );
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+                {/* name of the motor */}.setPower( {/* power of the motor */} );
+
             }else {
-                {/* name of the motor */}.setPower( {/*stop power */} );
+                {/* name of the motor */}.setPower( {/* stop power */} );
             }
 
             // **Motor Control Arm/Extension Example:
@@ -108,10 +93,10 @@ public class /* name of the file */ extends LinearOpMode {
             }
 
             /* Note : 
-                        Motor does requires input for power and although input for position isn't necessary,
+                        Motor does requires input for power and endcoders and input for position aren't necessary,
                         target position is the best for precise and accurate movement like for arm or lift extensions
-                        because giving only power will only continuously move the motor in one direction, 
-                        which mostly helpful in drive and intake. */
+                        because giving power only [either positive or negative] will only continuously 
+                        move the motor in one direction, which is mostly helpful in drive and intake. */
 
 
 
@@ -121,6 +106,7 @@ public class /* name of the file */ extends LinearOpMode {
             } else if (/*gamepad control is (pressed/moved) in the opposite direction (input is different) */) {
                 {/* name of the servo */}.setPosition( [/* position of the servo */] );
             }
+
             /* Note : 
                         Normal Servo only requires input for position only,
                         it won't do anything if you do have an input for power. */
@@ -133,10 +119,10 @@ public class /* name of the file */ extends LinearOpMode {
             } else if (/* gamepad control is (pressed/moved) in the opposite direction (input is different) */) {
                 {/* name of the continuous rotation servo */}.setPower( {/* power of the Continuous Rotation Servo */} );
             }
+
             /* Note : 
                         Continuous Rotation Servo only requires input for power only,
                         it won't do anything if you do have an input for position. */
-
 
 
             // Telemetry for debugging
