@@ -35,3 +35,5 @@ FTC Programming Tutorials Playlist 2: https://www.youtube.com/playlist?list=PLRH
 Workshop 1 Slides: https://docs.google.com/presentation/d/1nYb0J8q0E8MSxiWj8Nmieu0Q553lkvAjyb8lJA0Lvs0/edit?usp=sharing
 
 Workshop 2 Slides: https://stemyyc-my.sharepoint.com/:p:/g/personal/jeetp884_stemia_ca/Ebci1ykRJ7pCvN42as6-RZwBAqkCGrbP0k5qisMJwJgEeg?e=yNClSs
+
+PID Workshop Slides: https://docs.google.com/presentation/d/11cil4J6JKThJGu0f6UBpL0BpbHe3HkOcatvteIARWYw/edit?usp=sharing
